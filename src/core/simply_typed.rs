@@ -1,6 +1,6 @@
 use std::rc::Rc;
 
-use crate::list::List;
+use crate::utils::list::List;
 
 pub enum TermUp {
     Ann(Rc<TermDown>, Rc<Type>),
